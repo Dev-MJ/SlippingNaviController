@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8A0394361EC0BA330052E28E /* SlippingPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0394351EC0BA330052E28E /* SlippingPopTransition.swift */; };
+		8A7FA7311EC1E23600B833C3 /* SlippingNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FA7301EC1E23600B833C3 /* SlippingNaviController.swift */; };
 		8AB14A961EBF5E2F003DE5DF /* SlippingNaviController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB14A941EBF5E2F003DE5DF /* SlippingNaviController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A0394351EC0BA330052E28E /* SlippingPopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlippingPopTransition.swift; sourceTree = "<group>"; };
+		8A7FA7301EC1E23600B833C3 /* SlippingNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlippingNaviController.swift; sourceTree = "<group>"; };
 		8AB14A911EBF5E2F003DE5DF /* SlippingNaviController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlippingNaviController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB14A941EBF5E2F003DE5DF /* SlippingNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlippingNaviController.h; sourceTree = "<group>"; };
 		8AB14A951EBF5E2F003DE5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 				8AB14A941EBF5E2F003DE5DF /* SlippingNaviController.h */,
 				8AB14A951EBF5E2F003DE5DF /* Info.plist */,
 				8A0394351EC0BA330052E28E /* SlippingPopTransition.swift */,
+				8A7FA7301EC1E23600B833C3 /* SlippingNaviController.swift */,
 			);
 			path = SlippingNaviController;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A0394361EC0BA330052E28E /* SlippingPopTransition.swift in Sources */,
+				8A7FA7311EC1E23600B833C3 /* SlippingNaviController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

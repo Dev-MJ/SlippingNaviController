@@ -36,11 +36,6 @@ extension SlippingPopTransition: UIViewControllerAnimatedTransitioning {
                          y: 0,
                          width: endVC.view.frame.width,
                          height: endVC.view.frame.height)
-      
-//      let dimmingView = UIView(frame: frame)
-//      dimmingView.backgroundColor = .clear
-//      dimmingView.alpha = 0.5
-//      endVC.view.addSubview(dimmingView)
       UIView.animate(withDuration: transitionDuration(using: transitionContext),
                      delay: 0,
                      options: .curveLinear,
