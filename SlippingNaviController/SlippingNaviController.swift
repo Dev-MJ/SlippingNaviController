@@ -24,11 +24,6 @@ class SlippingNaviController: UINavigationController {
 
 extension SlippingNaviController: UINavigationControllerDelegate {
   
-  
-  func addPanguesture(viewController: UIViewController) {
-    
-  }
-  
   //optional. navigationController가 VC의 view와 navigation item properties를 표시하기 바로 전에 호출됩니다.
   func navigationController(_ navigationController: UINavigationController,
                             willShow viewController: UIViewController,
@@ -47,5 +42,24 @@ extension SlippingNaviController: UINavigationControllerDelegate {
     }else{
       return nil
     }
+  }
+  
+  //optional. delegate가 VC의 transition동안 사용 할 interactive animator object를 return하게 하기 위해 호출 됩니다.
+  func navigationController(_ navigationController: UINavigationController,
+                            interactionControllerFor animationController: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+    if animationController.isKind(of: SlippingPopTransition.self) {
+      return self.interactivePopTransition
+    }else{
+      return nil
+    }
+  }
+  
+  func addPanguesture(viewController: UIViewController) {
+    let pan = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture))
+    viewController.view.addGestureRecognizer(pan)
+  }
+  
+  func handlePanGesture(gesture: UIPanGestureRecognizer){
+    
   }
 }
