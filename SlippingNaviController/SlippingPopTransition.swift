@@ -32,10 +32,6 @@ extension SlippingPopTransition: UIViewControllerAnimatedTransitioning {
       containerView.bringSubview(toFront: startView)
       endView.frame = transitionContext.finalFrame(for: endVC)
       
-      let frame = CGRect(x: 0,
-                         y: 0,
-                         width: endVC.view.frame.width,
-                         height: endVC.view.frame.height)
       UIView.animate(withDuration: transitionDuration(using: transitionContext),
                      delay: 0,
                      options: .curveLinear,
