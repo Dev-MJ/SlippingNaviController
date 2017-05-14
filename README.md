@@ -1,10 +1,8 @@
 # SlippingNaviController
 
-------------------------------------------------------------------------
-
 # About
 
-This makes it easier to implement backward gestures in UINavigationController, such as Instagrams and Facebook.
+This makes it easier to implement backward gestures in UINavigationController, such as **Instagrams** and **Facebook**.
 
 ### UINavigationController
 
@@ -16,18 +14,14 @@ This makes it easier to implement backward gestures in UINavigationController, s
 
 ![gifImage](READMEImages/SlippingNaviController.gif)
 
--------------------------------------
-
 # Requirements
 
 * iOS 9.0 +
 * Xcode 8.0 +
 
-------------------------------
-
 # Installation
 
-## CocoaPods
+**CocoaPods**
 
 ```ruby
 $ gem install cocoapods
@@ -43,7 +37,16 @@ pod 'SlippingNaviController'
 pod install
 ```
 
--------------------------------------------------------------------------------------------------
+
+
+**Carthage**
+
+```swift
+//I don't know carthage hahahaha..
+//next time :)
+```
+
+
 
 # Usage
 
@@ -64,7 +67,7 @@ If you are `using a storyboard`, you can set the UINavigationController's Custom
 
 ![image](READMEImages/Identify Inspector.png)
 
------------------
+
 
 # MIT License
 
