@@ -9,7 +9,11 @@ sudo: false
 #before_script:
 
 script:
-   - xcodebuild clean build -scheme SlippingNaviController -destination 'platform=iOS Simulator, name=iPhone 7,OS=10.3'
+   - xcodebuild clean build
+   -project SlippingNaviController.xcodeproj
+   -scheme SlippingNaviController
+   -sdk iphonesimulator10.3
+   -destination "platform=iOS Simulator,OS=10.3,name=iPhone 7"
 
 
 #after_script:
