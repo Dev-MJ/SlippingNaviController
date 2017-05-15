@@ -1,8 +1,6 @@
 # SlippingNaviController
 
-![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg) ![CocoaPods](https://img.shields.io/cocoapods/v/SlippingNaviController.svg) ![platform](https://img.shields.io/badge/platform-iOS-blue.svg) ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
-
-
+![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg) ![CocoaPods](https://img.shields.io/cocoapods/v/SlippingNaviController.svg) ![platform](https://img.shields.io/badge/platform-iOS-blue.svg) ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg) [![TravisCI](https://img.shields.io/travis/rust-lang/rust/dev.svg)](https://github.com/Dev-MJ/SlippingNaviController.git)
 
 # About
 
@@ -98,4 +96,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
