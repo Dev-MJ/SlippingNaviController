@@ -1,6 +1,6 @@
 # SlippingNaviController
 
-![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg) ![CocoaPods](https://img.shields.io/cocoapods/v/SlippingNaviController.svg) ![platform](https://img.shields.io/badge/platform-iOS-blue.svg) ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg) [![TravisCI](https://api.travis-ci.org/Dev-MJ/SlippingNaviController.svg?branch=dev)](https://github.com/Dev-MJ/SlippingNaviController.git)
+![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg) ![CocoaPods](https://img.shields.io/cocoapods/v/SlippingNaviController.svg) ![platform](https://img.shields.io/badge/platform-iOS-blue.svg) ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg) [![TravisCI](https://api.travis-ci.org/Dev-MJ/SlippingNaviController.svg)](https://github.com/Dev-MJ/SlippingNaviController.git)
 
 # About
 
