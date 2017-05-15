@@ -1,8 +1,8 @@
 # SlippingNaviController
 
-![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg) ![CocoaPods](https://img.shields.io/cocoapods/v/SlippingNaviController.svg)
 
-![CocoaPods](https://img.shields.io/cocoapods/v/SlippingNaviController.svg)
+
 
 # About
 
