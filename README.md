@@ -1,5 +1,9 @@
 # SlippingNaviController
 
+![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
+
+![CocoaPods](https://img.shields.io/cocoapods/v/SlippingNaviController.svg)
+
 # About
 
 This makes it easier to implement backward gestures in UINavigationController, such as **Instagrams** and **Facebook**.
@@ -65,7 +69,7 @@ self.window?.rootViewController = navigationController
 
 If you are `using a storyboard`, you can set the UINavigationController's Custom Class in the Identify Inspector.
 
-![image](READMEImages/Identify Inspector.png)
+![image](READMEImages/IdentifyInspector.png)
 
 
 

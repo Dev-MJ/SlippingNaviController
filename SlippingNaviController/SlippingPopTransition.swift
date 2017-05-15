@@ -19,7 +19,7 @@ extension SlippingPopTransition: UIViewControllerAnimatedTransitioning {
   
   //required. 애니메이터 객체에 전환 애니메이션을 수행하도록 지시.
   func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-    //transitionContext : transition에 관한 정보를 포함한 컨텍스트 객체.
+    //transitionContext : transition에 관한 정보를 포함한 context object.
     //transition이 시작할 때 보이는 VC
     guard let startVC = transitionContext.viewController(forKey: .from) else { return }
     //transition이 끝난 뒤에 보이는 VC
